@@ -10,7 +10,7 @@ void setup() {
   size(700,500);
   
   myFlower1 = new Flower(25,8,100,200,#FA0330,3,1,1);
-  myFlower2 = new Flower(25,8,325,440,#FA0330,5,-1,-1);
+  myFlower2 = new Flower(25,8,325,100,#FA0330,5,-1,-1);
 }
 
 void draw(){

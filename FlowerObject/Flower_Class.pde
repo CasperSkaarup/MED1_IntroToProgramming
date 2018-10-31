@@ -9,6 +9,7 @@ class Flower {
   float xdi;     //direction of x
   float ydi;     //direction of y
   
+  
   //Constructor
   Flower(float _r, int _numPetals, float _x, float _y, int _petalsC, float _speed, float _xdi, float _ydi){
    r = _r;
@@ -19,6 +20,7 @@ class Flower {
    speed = _speed;
    xdi = _xdi;
    ydi = _ydi;
+   
   }
   
   void Display() {
@@ -45,7 +47,7 @@ class Flower {
      xdi *= -1; 
     }
     if(ypos >= height-r/2 || ypos <= r/2){
-     ydi *= -1; 
+     ydi *= -1;
     }
   }
 }
